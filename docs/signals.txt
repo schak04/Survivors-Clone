@@ -1,0 +1,11 @@
+Signals:
+========
+
+- A signal is a built-in condition that can trigger a function in another script.
+- A node has many unique signals of its own and it also inherits signals from its parent.
+- Custom signals can also be made.
+- Signal declaration is done using the `signal` keyword.
+- Signal invocation is done using the `emit_signal()` function.
+
+To connect a signal to the script:
+	Dock -> Node -> Signals -> double-click on the signal -> connect

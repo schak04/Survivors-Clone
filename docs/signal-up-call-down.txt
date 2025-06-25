@@ -1,0 +1,10 @@
+Thumb Rule: Signal Up, Call Down 
+================================
+
+This rule says that it is better to use signals to call a parent script
+than it is to call a function of a parent.
+
+Why so?
+- Parents may not have the function required.
+- This approach provides more control over what is sent to the parent object.
+- It is more maintainable.

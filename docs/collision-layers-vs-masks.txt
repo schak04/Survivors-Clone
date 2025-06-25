@@ -1,0 +1,14 @@
+Collision Layers vs Collision Masks in Godot
+============================================
+
+Collision Layer:
+- The layer(s) an object exists on.
+- Other objects will see it only if their mask is set to its layer.
+
+Collision Mask:
+- The layer(s) an object scans for collisions.
+- This determines which other layers this object will collide with.
+
+Analogy:
+- Layer = “Where I live”
+- Mask  = “Who I care about bumping into”
