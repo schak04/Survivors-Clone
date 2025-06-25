@@ -9,7 +9,6 @@
 [node name="Background" type="Sprite2D" parent="."]
 texture_filter = 2
 texture_repeat = 2
-position = Vector2(-1, 1)
 texture = ExtResource("1_4y7m0")
 region_enabled = true
 region_rect = Rect2(0, 0, 4000, 4000)
